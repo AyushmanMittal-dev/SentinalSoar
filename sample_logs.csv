@@ -1,0 +1,8 @@
+timestamp,source_ip,destination_ip,hostname,username,action,severity,message
+2026-08-17T10:00:00Z,198.51.100.20,10.0.0.15,db-server,admin,failed password,high,Invalid user admin from 198.51.100.20
+2026-08-17T10:00:05Z,198.51.100.20,10.0.0.15,db-server,root,failed password,high,Invalid user root from 198.51.100.20
+2026-08-17T10:00:10Z,198.51.100.20,10.0.0.15,db-server,ubuntu,failed password,high,Invalid user ubuntu from 198.51.100.20
+2026-08-17T10:00:15Z,198.51.100.20,10.0.0.15,db-server,test,failed password,high,Invalid user test from 198.51.100.20
+2026-08-17T10:00:20Z,198.51.100.20,10.0.0.15,db-server,admin,accepted password,high,Accepted password for admin from 198.51.100.20
+2026-08-17T10:05:00Z,203.0.113.100,10.0.0.10,web-server,nobody,sql_injection,critical,Union select detected in URI parameter id=1' OR '1'='1
+2026-08-17T10:05:02Z,203.0.113.100,10.0.0.10,web-server,nobody,sql_injection,critical,Union select detected in URI parameter id=2' UNION SELECT username,password FROM users--
